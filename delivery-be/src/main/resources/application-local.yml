@@ -2,11 +2,12 @@ server:
   port: 8080
 
 postgres:
-  host: postgresdb
+  host: localhost
   port: 5433
-  db.name: ${POSTGRES_DB}
-  username: ${POSTGRES_USER}
-  password: ${POSTGRES_PASSWORD}
+  db:
+    name: delivery
+  username: user
+  password: admin
 
 spring:
 
